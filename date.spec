@@ -9,6 +9,7 @@ Source0: %{url}/archive/v%{version}.tar.gz
 
 BuildRequires: cmake >= 3.1.0
 BuildRequires: gcc-c++ >= 5.3.1      
+BuildRequires: libcurl-devel >= 7.43.0      
 
 %define debug_package %{nil}
 
